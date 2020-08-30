@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fitness club</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background: url("img/beauty.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: black;
+      font-family: "Playfair Display", serif;
+    }
+    .left {
+      display: inline-block;
+      /* border: 3px solid hotpink; */
+      position: absolute;
+      left: 67px;
+      top: 27px;
+    }
+    .mid {
+      display: block;
+      width: 47%;
+      margin: 27px auto;
+      /* border: 3px solid forestgreen; */
+    }
+    .right {
+      position: absolute;
+      right: 67px;
+      top: 27px;
+      display: inline-block;
+      /* border: 3px solid orangered; */
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 18px;
+    }
+    .navbar li a {
+      color: hsla(0, 0%, 100%, 0.904);
+      text-decoration: none;
+      padding: 25px;
+    }
+    .navbar li a:hover {
+      text-decoration: underline;
+      color: rgb(32, 190, 196);
+    }
+    .left img {
+      width: 43px;
+    }
+    .left div: {
+      text-align: center;
+      line-height: 31px;
+      font-size: 18px;
+    }
+    .btn {
+      margin: 0px 10px;
+      background-color: rgb(10, 7, 8);
+      color: white;
+      padding: 10px 13px;
+      border: 3px solid rgb(170, 45, 149);
+      border-radius: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      font-family: "Playfair Display", serif;
+    }
+    .btn:hover {
+      background-color: coral;
+    }
+    .container{
+      border:3px solid pink;
+      margin: 58px 20px;
+      padding:10px 58px;
+      width:33%;
+      border-radius: 5px;
+    }
+    .form.group input{
+      text-align: center;
+      display: block;
+      width: 260px;
+      padding: 13px;
+      border: 4px solid black;
+      margin: 13px;
+      font-size: 15px;
+      border-radius: 13px;
+      font-family: "Playfair Display", serif;
+    }
+    .container h2{
+      text-align: center;
+    }
+    .container button{
+      display: block;
+      width: 274px;
+      margin: 21px;
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="img/glam.png" alt="" />
+        <div>Beauty Club</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Beauty Tips</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email US</button>
+      </header>
+      <div class="container">
+        <h2>Join the best Beauty Club of Gujarat Now</h2>
+        <form action="noaction .php">
+          <div class="form group">
+              <input type="text" name="" placeholder="Enter your Name">
+          </div>
+          <div class="form group">
+            <input type="text" name="" placeholder="Enter your Age">
+          </div>
+          <div class="form group">
+            <input type="text" name="" placeholder="Enter your Gender">
+          </div>
+          <div class="form group">
+            <input type="text" name="" placeholder="Enter your Locality">
+          </div>
+          <button class="btn">submit</button>
+        </form>
+      </div>
+  </body>
+</html>
